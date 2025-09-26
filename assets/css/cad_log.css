@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PoppinsRegular', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 600px;
+    padding: 50px 40px;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.container h2 {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.container form .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form .input label {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container form .input input {
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #a4a4a4;
+    font-size: 17px;
+}
+
+.container form .input #entrar {
+    border: none;
+    color: #fff;
+    background-color: #313131;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.container form .input #entrar:hover {
+    background-color: #313131d1;
+}
+
+.container form p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.container form p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #313131;
+}
+.container form p a:hover {
+    text-decoration: underline;
+}

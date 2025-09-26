@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PoppinsRegular', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #fffcf3;
+}
+
+header {
+    background-color: #313131;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    font-family: 'Irish Grover';
+    color: #fff;
+    font-size: 50px;
+    cursor: default;
+}
+
+
+main {
+    padding: 50px 150px;
+    width: 100%;
+}
+main .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .content p {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main .content .content-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 40px;
+}
+main .content .content-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    gap: 15px;
+}
+main .content .content-cards .card p {
+    text-align: center;
+}
+
+main .content .content-cards .card svg {
+    width: 50px;
+}
+main .content .content-cards #registrar {
+    background-color: rgba(62, 145, 93, 0.07);
+    border: 2px solid rgba(62, 145, 93, 1);
+}
+main .content .content-cards #compartilhar {
+    background-color: rgba(70, 146, 221, 0.07);
+    border: 2px solid rgba(70, 146, 221, 1);
+}
+main .content .content-cards #progresso {
+    background-color: rgba(240, 187, 64, 0.07);
+    border: 2px solid rgba(240, 187, 64, 1);
+}
+main .content .content-cards #lista {
+    background-color: rgba(234, 46, 46, 0.07);
+    border: 2px solid rgba(234, 46, 46, 1);
+}
+
+
+
+
+main .content .comece {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+main .content .comece h1 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+}
+main .content .comece .entrar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+main .content .comece .entrar a {
+    border: 2px solid #313131;
+    padding: 10px 25px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+main .content .comece .entrar a:hover {
+    background-color: #313131;
+    color: white;
+    transition: all .2s ease-in-out;
+}

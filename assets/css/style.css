@@ -1,0 +1,294 @@
+/* HEADER - NAVIGATION */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    padding: 10px 100px;
+    background-color: var(--nav-color);
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo h1 {
+    color: var(--logo-color);
+    font-family: 'Irish Grover';
+    font-size: var(--logo-size);
+}
+
+
+
+/* MENU */
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+menu .menu_options {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+menu .menu_options a {
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: italic;
+}
+
+menu .menu_options .button_lido {
+    background-color: var(--unfocus-green);
+    color: var(--text-green);
+    border: 2px solid var(--border-green);
+}
+menu .menu_options .button_lendo {
+    background-color: var(--unfocus-yellow);
+    color: var(--text-yellow);
+    border: 2px solid var(--border-yellow);
+}
+menu .menu_options .button_queroLer {
+    background-color: var(--unfocus-red);
+    color: var(--text-red);
+    border: 2px solid var(--border-red);
+}
+
+menu .menu_options .button_lido:hover {
+    background-color: var(--focus-green);
+    color: #fff;
+    border: 2px solid var(--border-green);
+}
+menu .menu_options .button_lendo:hover {
+    background-color: var(--focus-yellow);
+    color: #fff;
+    border: 2px solid var(--border-yellow);
+}
+menu .menu_options .button_queroLer:hover {
+    background-color: var(--focus-red);
+    color: #fff;
+    border: 2px solid var(--border-red);
+}
+
+/* Estado ativo */
+menu .menu_button.ativo {
+    filter: brightness(1.1);
+    color: #fff;
+}
+
+/* Específico para cada cor */
+menu .button_lido.ativo {
+    background-color: var(--focus-green);
+}
+
+menu .button_lendo.ativo {
+    background-color: var(--focus-yellow);
+}
+
+menu .button_queroLer.ativo {
+    background-color: var(--focus-red);
+}
+
+
+menu .menu_search input {
+    padding: 12px 20px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid var(--border-search);
+    color: var(--placeholder-color);
+    background-color: var(--background-search);
+}
+
+
+
+/* MAIN */
+main {
+    display: flex;
+    margin-top: 30px;
+    padding: 0 100px;
+}
+main .novo a {
+    text-decoration: none;
+}
+main .novo .btn_novo {
+    padding: 10px 25px;
+    width: 130px;
+    border-radius: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid var(--border-novo);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-novo);
+    justify-content: space-between;
+    align-items: center;
+}
+main .novo .btn_novo i {
+    font-size: 20px;
+}
+
+
+
+/* CADASTRO */
+.cadastro .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    border: 1px solid #e5e5e5; 
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    padding: 40px 70px;
+}
+
+.cadastro .container .parte_um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.cadastro .container .parte_um .titulo {
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.cadastro .container .parte_um .titulo h1 {
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+.cadastro .container .parte_um .voltar a {
+    text-decoration: none;
+    color: #313131;
+    font-size: 30px;
+}
+
+.cadastro .container .parte_dois {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+.cadastro .container .parte_dois .input {
+    display: flex;
+    flex-direction: column;
+}
+.cadastro .container .parte_dois .input label,
+.avaliacao label,
+.comentario label {
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+.cadastro .container .parte_dois .input input {
+    width: 370px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--input-border);
+    outline: none;
+}
+
+
+.cadastro .container .parte_tres {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.cadastro .container .parte_tres .avaliacao {
+    display: flex;
+    flex-direction: column;
+}
+.cadastro .container .parte_tres .avaliacao input {
+    margin-top: -15px;
+    width: 500px;
+}
+.cadastro .container .parte_tres .avaliacao label {
+    text-align: center;
+}
+
+
+.cadastro .container .parte_quatro {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.cadastro .container .parte_quatro .comentario {
+    display: flex;
+    flex-direction: column;
+}
+.cadastro .container .parte_quatro .comentario textarea {
+    border: 1px solid var(--input-border);
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+    height: 140px;
+    width: 1193px;
+    max-width: 1193px;
+}
+
+
+.cadastro .container .parte_cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 35px;
+}
+.cadastro .container .parte_cinco .btn_adicionar button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 10px;
+    border: 1px solid var(--input-border);
+    background-color: var(--background-novo);
+}
+
+
+
+
+/* LISTA LIVROS */
+main .lista-livros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .lista-livros .livro-card {
+    width: 300px;
+    height: 400px;
+    border: 2px solid var(--input-border);
+}
+main .lista-livros .livro-card img {
+    width: 300px;
+    height: 350px;
+    background-size: contain;
+}

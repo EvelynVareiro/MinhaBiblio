@@ -1,0 +1,44 @@
+:root {
+    /* NAV BAR */
+    --nav-color: #313131;
+    --logo-color: #ededed;
+    --logo-size: 48px;
+    --nomePerfil-size: 25px;
+    
+
+    /* MENU */
+    /* LIDO */
+    --focus-green: #52874f;
+    --border-green: #367f33;
+    --unfocus-green: #367f3327;
+    --text-green: #21541e;
+
+    /* LENDO */
+    --focus-yellow: #fadb53;
+    --border-yellow: #f3c600;
+    --unfocus-yellow: #f3c60031;
+    --text-yellow: #605217;
+
+    /* QUERO LER */
+    --focus-red: #ff5a5a;
+    --border-red: #ff0000;
+    --unfocus-red: #ff000030;
+    --text-red: #7a1c1c;
+
+    /* SEARCH COLORS */
+    --placeholer-color: #313131;
+    --search-color: #313131;
+    --background-search: #ffffff;
+    --border-search: #a4a4a4;
+
+    /* MAIN NOTHING */
+    --warning-color: #313131;
+    --text-novo: #313131;
+    --plus-novo: #313131;
+    --background-novo: #f4f4f4;
+    --border-novo: #a4a4a4;
+
+
+    /* CADASTRO */
+    --input-border: #a4a4a4;
+}
